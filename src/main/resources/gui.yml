@@ -1,0 +1,182 @@
+# Size is the number of chest slots (9, 18, 27, 36, 45 or 54).
+# Slots start at 0 in the top-left corner. Lists accept slots and ranges.
+presets:
+  title: '        &8• &#7db597Edit Scoreboard &8•'
+  size: 45
+  auto-size: false
+  preset-slots: ['21-23']
+  buttons:
+    reorder:
+      slot: 39
+      material: SHULKER_SHELL
+      name: '&8| &#48ab76Reorder Modules'
+      lore:
+        - '&fChange the order of your enabled modules.'
+    edit:
+      slot: 40
+      material: ANVIL
+      name: '&8| &#48ab76Edit Scoreboard'
+      lore:
+        - '&fAdd or remove individual modules.'
+    colors:
+      slot: 41
+      material: NETHER_STAR
+      name: '&8| &#48ab76Scoreboard Color'
+      lore:
+        - '&fClick to choose a color.'
+    visibility:
+      slot: 4
+      visible:
+        name: '&8| &#48ab76Toggle Scoreboard &c&lOFF'
+        material: LIME_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &a{status}&f.'
+      hidden:
+        name: '&8| &#48ab76Toggle Scoreboard &a&lON'
+        material: RED_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &c{status}&f.'
+  decorations:
+    border:
+      slots: [1,2,6,7,37,38,42,43]
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&f'
+    white-stuff:
+      slots: [0,3,5,8,36,39,41,44]
+      material: WHITE_STAINED_GLASS_PANE
+      name: '&f'
+modules:
+  title: '           &8• &#7db597Edit Modules &8•'
+  size: 45
+  auto-size: false
+  module-slots: ['9-35']
+  buttons:
+    previous-page: 36
+    back:
+      slot: 0
+      name: '&c&lGo Back'
+      material: RED_STAINED_GLASS_PANE
+    reorder:
+      material: SHULKER_SHELL
+      slot: 39
+      name: '&8| &#48ab76Reorder Modules'
+      lore:
+        - '&fChange the order of your enabled modules.'
+    info:
+      slot: 40
+      material: PAPER
+      name: '&8| &#48ab76{used}/{max} module rows used'
+      lore:
+        - '&f{remaining} rows available.'
+    colors:
+      slot: 41
+      material: NETHER_STAR
+      name: '&8| &#48ab76Scoreboard Color'
+      lore:
+        - '&fClick to choose a color.'
+    next-page: 44
+    visibility:
+      slot: 4
+      visible:
+        name: '&8| &#48ab76Toggle Scoreboard &c&lOFF'
+        material: LIME_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &a{status}&f.'
+      hidden:
+        name: '&8| &#48ab76Toggle Scoreboard &a&lON'
+        material: RED_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &c{status}&f.'
+  decorations:
+    border:
+      slots: [1,2,6,7,37,38,42,43]
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&f'
+    white-stuff:
+      slots: [0,3,5,8,36,39,41,44]
+      material: WHITE_STAINED_GLASS_PANE
+      name: '&f'
+  # Example decoration group
+  # decorations:
+  #   border:
+  #     slots: [46, 47, 51, 52]
+  #     material: GRAY_STAINED_GLASS_PANE
+  #     name: '&7Evergreen'
+  #     lore: ['&8Scoreboard settings']
+
+reorder:
+  title: '        &8• &#7db597Reorder Modules &8•'
+  size: 45
+  auto-size: false
+  # Leave room for up to 12 selected modules.
+  module-slots: ['9-35']
+  buttons:
+    back:
+      slot: 0
+      name: '&c&lGo Back'
+      material: RED_STAINED_GLASS_PANE
+    info:
+      slot: 40
+      name: '&8| &#48ab76Module Order'
+      lore:
+        - '&fModules are shown in scoreboard order.'
+    visibility:
+      slot: 4
+      visible:
+        name: '&8| &#48ab76Toggle Scoreboard &c&lOFF'
+        material: LIME_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &a{status}&f.'
+      hidden:
+        name: '&8| &#48ab76Toggle Scoreboard &a&lON'
+        material: RED_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &c{status}&f.'
+  decorations:
+    border:
+      slots: [1,2,6,7,37,38,42,43]
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&f'
+    white-stuff:
+      slots: [0,3,5,8,36,39,41,44]
+      material: WHITE_STAINED_GLASS_PANE
+      name: '&f'
+
+colors:
+  title: '        &8• &#7db597Scoreboard Color&8•'
+  size: 45
+  auto-size: false
+  color-slots: ['9-35']
+  custom-color-material: GLASS
+  buttons:
+    back:
+      slot: 0
+      name: '&c&lGo Back'
+      material: RED_STAINED_GLASS_PANE
+    custom-color:
+      slot: 40
+      name: '&8| &#48ab76Custom Color'
+      material: END_CRYSTAL
+      lore:
+        - '&fClick to enter a HEX color.'
+    visibility:
+      slot: 4
+      visible:
+        name: '&8| &#48ab76Toggle Scoreboard &c&lOFF'
+        material: LIME_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &a{status}&f.'
+      hidden:
+        name: '&8| &#48ab76Toggle Scoreboard &a&lON'
+        material: RED_STAINED_GLASS
+        lore:
+          - '&fScoreboard currently &c{status}&f.'
+  decorations:
+    border:
+      slots: [1,2,6,7,37,38,42,43]
+      material: GREEN_STAINED_GLASS_PANE
+      name: '&f'
+    white-stuff:
+      slots: [0,3,5,8,36,39,41,44]
+      material: WHITE_STAINED_GLASS_PANE
+      name: '&f'

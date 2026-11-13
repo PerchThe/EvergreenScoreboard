@@ -1,0 +1,32 @@
+# Presets appear in file order. The module IDs below are from config.yml
+# and their order here becomes the order on the player's sidebar.
+general:
+  name: '&8» &fSelect &#48ab76General Scoreboard'
+  material: OAK_SIGN
+  modules: [coordinates, world, direction, divider, online, money, channel, claim-blocks]
+  lore:
+    - ''
+    - '&7Default Preview:'
+    - '{preview}'
+    - ''
+    - '&#7db597Click here &fto select this scoreboard!'
+grinding:
+  name: '&8» &fSelect &#48ab76Grinding Scoreboard'
+  material: GRINDSTONE
+  modules: [quests, power-level, jobs-level, coordinates, world, divider, online, money, channel, claim-blocks]
+  lore:
+    - ''
+    - '&7Default Preview:'
+    - '{preview}'
+    - ''
+    - '&#7db597Click here &fto select this scoreboard!'
+technical:
+  name: '&8» &fSelect &#48ab76Technical Scoreboard'
+  material: COMPARATOR
+  modules: [block-light, sky-light, direction, coordinates, time, divider, world, online, money, channel]
+  lore:
+    - ''
+    - '&7Default Preview:'
+    - '{preview}'
+    - ''
+    - '&#7db597Click here &fto select this scoreboard!'

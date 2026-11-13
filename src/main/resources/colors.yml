@@ -1,0 +1,81 @@
+# Colors appear in file order. Hyphens and underscores display as spaces.
+# Use a Minecraft color code or a hex color, for example '&#48ab76'.
+Red:
+  color: '&c'
+  accent-color: '&#ff8686'
+  material: RED_WOOL
+Gold:
+  color: '&6'
+  accent-color: '&#ffc34a'
+  material: ORANGE_WOOL
+  name: 'Orange'
+Yellow:
+  color: '&e'
+  accent-color: '&#ffff86'
+  material: YELLOW_WOOL
+Green:
+  color: '&a'
+  accent-color: '&#86ff86'
+  material: LIME_WOOL
+  name: 'Lime'
+Dark-Green:
+  color: '&2'
+  accent-color: '&#4ab44a'
+  material: GREEN_WOOL
+  name: 'Green'
+Dark-Aqua:
+  color: '&3'
+  accent-color: '&#4ab4b4'
+  material: CYAN_WOOL
+  name: 'Cyan'
+Blue:
+  color: '&9'
+  accent-color: '&#8686ff'
+  material: BLUE_WOOL
+Aqua:
+  color: '&b'
+  accent-color: '&#86ffff'
+  material: LIGHT_BLUE_WOOL
+  name: 'Light blue'
+Pink:
+  color: '&#f38baa'
+  accent-color: '&#f4adc2'
+  material: PINK_WOOL
+Light-Purple:
+  color: '&d'
+  accent-color: '&#ff86ff'
+  material: MAGENTA_WOOL
+  name: 'Magenta'
+Dark-Purple:
+  color: '&5'
+  accent-color: '&#b44ab4'
+  material: PURPLE_WOOL
+  name: 'Purple'
+Brown:
+  color: '&#8b5a2b'
+  accent-color: '&#998068'
+  material: BROWN_WOOL
+  name: 'Brown'
+Black:
+  color: '&0'
+  accent-color: '&#3c3c3c'
+  material: BLACK_WOOL
+Dark-Gray:
+  color: '&8'
+  accent-color: '&#7d7d7d'
+  material: GRAY_WOOL
+  name: 'Grey'
+Gray:
+  color: '&7'
+  accent-color: '&#bebebe'
+  material: LIGHT_GRAY_WOOL
+  name: 'Light grey'
+White:
+  color: '&f'
+  accent-color: '&#ffffff'
+  material: WHITE_WOOL
+Ever-Green:
+  color: '&#48ab76'
+  accent-color: '&#7db597'
+  material: SPRUCE_LEAVES
+  name: 'Evergreen'

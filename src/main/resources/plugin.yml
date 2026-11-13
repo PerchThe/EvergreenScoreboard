@@ -1,0 +1,24 @@
+name: EvergreenScoreboard
+version: '${version}'
+main: evergreen.scoreboard.EvergreenScoreboard
+api-version: '26.3'
+depend: [PlaceholderAPI]
+authors: [Dypel]
+description: Modular scoreboard with per-player selections.
+
+commands:
+  sb:
+    description: Open scoreboard presets and customization.
+    usage: /sb
+    aliases: [evergreenscoreboard]
+
+permissions:
+  evergreen.scoreboard.use:
+    description: View and customize the standard scoreboard.
+    default: true
+  evergreen.scoreboard.alt:
+    description: View the fixed alt sidebar with scoreboard commands disabled.
+    default: false
+  evergreen.scoreboard.reload:
+    description: Reload the scoreboard configuration.
+    default: op

@@ -1,0 +1,17 @@
+# Displayed to players with evergreen.scoreboard.alt.
+# Use & color codes, hex colors like &#48ab76, or <color> for the color below.
+color: '&#48ab76'
+title: '<color>&l• Evergreen •'
+top-separator: '<color>&m                      '
+bottom-separator: '<color>&m                      '
+
+# Up to 13 lines between the outer separators.
+# Put <top-separator> or <bottom-separator> on its own line for a divider.
+lines:
+  - '<color>| &7This account is marked-'
+  - '<color>| &7as an alt account.'
+  - '<top-separator>'
+  - '<color>| &7Available Commands:'
+  - '<color>| &7/sethome, /home, /renamehome'
+  - '<color>| &7/tpa, /tpaccept, /tpdeny'
+  - '<color>| &7/tpahere, /spawn, /trash'

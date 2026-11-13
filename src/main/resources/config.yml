@@ -1,0 +1,91 @@
+# 20 ticks is one second at 20 TPS.
+refresh-interval-ticks: 20
+
+# Cache PlaceholderAPI results per player for this many milliseconds.
+# Values are checked on the next sidebar render. Use 0 to resolve on every render.
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 1000
+  "%griefprevention_remainingclaims%": 2000
+
+# Modules appear in this order. The key is the saved ID, so keep it when
+# changing a module's name or lines. Each list item uses one sidebar row.
+# Players can select up to 12 module rows.
+modules:
+  quests:
+    name: '&8| &#48ab76Quests'
+    lines:
+      - '<color>| &7Quests: <color-accent>%quests_completed%/%quests_all%'
+  power-level:
+    name: '&8| &#48ab76Power Level'
+    lines:
+      - '<color>| &7Power Level: <color-accent>%mcmmo_power_level%'
+  jobs-level:
+    name: '&8| &#48ab76Jobs Level'
+    lines:
+      - '<color>| &7Jobs Level: <color-accent>%perchjobs_total_level%'
+  world:
+    name: '&8| &#48ab76World'
+    lines:
+      - '<color>| &7World: <color-accent>%world%'
+  online:
+    name: '&8| &#48ab76Online'
+    lines:
+      - '<color>| &7Online: <color-accent>%vanish_playercount%/100'
+  money:
+    name: '&8| &#48ab76Money'
+    lines:
+      - '<color>| &7Money: <color-accent>$%vault_eco_balance_commas%'
+  channel:
+    name: '&8| &#48ab76Channel'
+    lines:
+      - '<color>| &7Channel: <color-accent>%evergreenchat_channel%'
+  claim-blocks:
+    name: '&8| &#48ab76Claim Blocks'
+    lines:
+      - '<color>| &7Claim Blocks: <color-accent>%griefprevention_remainingclaims%'
+  coordinates:
+    name: '&8| &#48ab76Coordinates'
+    lines:
+      - '<color>| &7Coordinates:'
+      - '<color>|    &7X: <color-accent>%player_x%'
+      - '<color>|    &7Y: <color-accent>%player_y%'
+      - '<color>|    &7Z: <color-accent>%player_z%'
+  divider:
+    name: '&8| &#48ab76Divider'
+    lines: ['<top-separator>']
+  direction:
+    name: '&8| &#48ab76Direction'
+    lines:
+      - '<color>| &7Direction: <color-accent>%player_direction%'
+  block-light:
+    name: '&8| &#48ab76Block Light'
+    lines:
+      - '<color>| &7Block Light: <color-accent>%lightlevel_block%'
+  sky-light:
+    name: '&8| &#48ab76Sky Light'
+    lines:
+      - '<color>| &7Sky Light: <color-accent>%lightlevel_sky%'
+  time:
+    name: '&8| &#48ab76Time'
+    lines:
+      - '<color>| &7Time: <color-accent>%player_world_time_24%'
+sidebar:
+  title: '<color-accent>&l• <color>Evergreen <color-accent>•'
+  top-separator: '<color>&m                      '
+  bottom-separator: '<color>&m                      '
+  options-line: '&7Options: <color-accent>/sb'
+  empty-lines:
+    - '<color>| &7Adjust available modules'
+    - '<color>| &7with <color-accent>/sb &7command.'
+
+placeholder-output-replacements:
+  '%world%':
+    Nest_nether: Nether
+    Nest: Overworld
+    Nest_the_end: The End
+    resource: Resource
+    resourcenether: Nether (R)
+    resourceend: The End (R)
+    Spawn: Spawn
+    Events: Events
+    mainworld: aaaaaa
